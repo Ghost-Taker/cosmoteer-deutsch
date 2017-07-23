@@ -24,7 +24,7 @@ MainMenu
 	ShipLibrary = "Schiff Datenbank";
 	Credits = "Credits";
 	Community = "Community";
-	CommunityConfirm = "Dies wird Cosmoteer Minimieren und das online forum in deinem Browser öffnen.";
+	CommunityConfirm = "Dies wird Cosmoteer Minimieren und das online Forum in deinem Browser öffnen.";
 	Feedback = "Rückmeldung Senden";
 }
 
@@ -44,7 +44,7 @@ LoadSaveGame
 	OkaySave = "Spiel Speichern";
 	OpenFolder = "Ordner Öffnen";
 	Delete = "Löschen";
-	ConfirmDeleteFmt = "Bist du sicher dass du '{0}' Löschen Möchtest?";
+	ConfirmDeleteFmt = "Bist du sicher dass du '{0}' löschen möchtest?";
 	ConfirmOverwrite = "Existierendes Spiel Überschreiben?";
 }
 
@@ -67,7 +67,7 @@ ShipLibrary
 	RenameShip = "Umbennenen";
 	RenameShipMsg = "Gib deinem Schiff einen Namen:";
 	DeleteShip = "Löschen";
-	ConfirmDeleteShipFmt = "Bist du sicher du willst '{0}' Löschen?";
+	ConfirmDeleteShipFmt = "Bist du dir sicher, dass du '{0}' löschen willst ?";
 
 	NewFolder = "Neuer Ordner";
 	NewFolderMsg = "Gib einen Namen für den neuen Ordner ein:";
@@ -82,18 +82,18 @@ ShipLibrary
 	ImportError = "Es gab einen Fehler beim Importieren des Schiffes: {0}";
 	ImportCustomName = "Gib deinem Schiff einen Namen:";
 
-	SearchTip = "Filtert die Schiffe unten um nur die Schiffe anzuzeigen deren name zu dem passt was du hier eingipst.";
+	SearchTip = "Filtert die Schiffe, damit nur die Schiffe angezeigt werden, welche zu der Suche passen.";
 }
 
 Inputs
 {
 	DialogName = "Steuerung Customisieren";
-	PressKeyOrClick = "Drücke den knopf den du gerne für das verwenden möchtest, oder Klicke in diesen Kasten:";
+	PressKeyOrClick = "Drücke den Knopf, welchen du gerne für den Befehl verwenden möchtest, oder Klicke in diesen Kasten:";
 	Clear = "Leeren";
 	Default = "Standart";
 	Defaults = "Standart";
 	None = "Keine";
-	ConfirmDefaults = "Bist du sicher das du alle steuerungs einstellungen zurück auf den standart setzen möchtest?";
+	ConfirmDefaults = "Bist du dir sicher, dass du alle Steuerungseinstellungen zurück auf den Standart setzen möchtest?";
 
 	General
 	{
@@ -200,8 +200,8 @@ Inputs
 	{
 		Name = "Reperation";
 		OpenClose = "Reperations Fenster Öffnen/Schliesen";
-		RepairAll = "Alle Reparieren";
-		SuppressRepair = "Nicht Reparieren (Statdesen Bauen)";
+		RepairAll = "Alles Reparieren";
+		SuppressRepair = "Nicht Reparieren (Stattdesen Bauen)";
 	}
 
 	Crew
