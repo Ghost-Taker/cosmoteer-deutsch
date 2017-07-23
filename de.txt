@@ -44,7 +44,7 @@ LoadSaveGame
 	OkaySave = "Spiel Speichern";
 	OpenFolder = "Ordner Öffnen";
 	Delete = "Löschen";
-	ConfirmDeleteFmt = "Bist du sicher dass du '{0}' löschen möchtest?";
+	ConfirmDeleteFmt = "Bist du dir sicher, dass du '{0}' löschen möchtest?";
 	ConfirmOverwrite = "Existierendes Spiel Überschreiben?";
 }
 
@@ -64,17 +64,17 @@ ShipLibrary
 	CrewCountFmt = "{0} Besatzung";
 	ConfirmOverwrite = "Existierendes Schiff Überschreiben?";
 
-	RenameShip = "Umbennenen";
+	RenameShip = "Umbenennen";
 	RenameShipMsg = "Gib deinem Schiff einen Namen:";
 	DeleteShip = "Löschen";
-	ConfirmDeleteShipFmt = "Bist du dir sicher, dass du '{0}' löschen willst ?";
+	ConfirmDeleteShipFmt = "Bist du dir sicher, dass du '{0}' löschen willst?";
 
 	NewFolder = "Neuer Ordner";
 	NewFolderMsg = "Gib einen Namen für den neuen Ordner ein:";
-	RenameFolder = "Ordner Umbennenen";
+	RenameFolder = "Ordner Umbenennen";
 	RenameFolderMsg = "Gib einen neuen Namen für den neuen Ordner ein:";
 	DeleteFolder = "Ordner Löschen";
-	DeleteFolderFmt = "bist du sicher du willst den ordner <b>{0}</b> löschen?";
+	DeleteFolderFmt = "bist du sicher du willst den Ordner <b>{0}</b> löschen?";
 	OpenFolder = "Ordner öffnen";
 
 	Organize = "Organisieren";
@@ -97,14 +97,14 @@ Inputs
 
 	General
 	{
-		Name = "Algemeines";
+		Name = "Allgemeines";
 		UIClick = "U.I. Klick";
 		UIAltClick = "U.I. Klick Wechseln";
 		UIFocusClick = "U.I. Fokus Klick";
 		Confirm = "Ja / Akzeptieren / Bestätigen";
 		Cancel = "Abbrechen / Zurück / Menü";
 		SuppressConfirmation = "Bestätigungen Unterdrücken";
-		ToggleFullscreen = "Full-Screen Umschalten";
+		ToggleFullscreen = "Vollbildmodus Umschalten";
 		TakeScreenshot = "Screenshot Machen";
 		SubmitFeedback = "Feedback Senden";
 		EmulateRightClick = "Rechtsklick Emulieren";
@@ -119,9 +119,9 @@ Inputs
 		ShowCommandWidgets = "Befehlsgriffe anzeigen";
 		Command = "Schiff/Teil Kommandieren";
 		UseTool = "Werkzeug Benutzen";
-		CancelTool = "Wekzeug Abwählen";
+		CancelTool = "Werkzeug Abwählen";
 		CancelWeaponTargets = "Waffen Ziele Entfernen";
-		ToggleMap = "Galaxie Karte Anzeigen/Versteken";
+		ToggleMap = "Galaxie Karte Anzeigen/Verstecken";
 		DoFtlJump = "Hyperraum Sprung Ausführen";
 		CancelFtlJump = "Hyperraum Sprung Abbrechen";
 		ToggleUI = "U.I. Umschalten";
@@ -130,7 +130,7 @@ Inputs
 		QuickSave = "Schnell-Speichern";
 		QuickLoad = "Schnell-Laden";
 		PauseToggle = "Pause / Weiter";
-		IncreaseSpeed = "Geschwindigkeit Erhörn";
+		IncreaseSpeed = "Geschwindigkeit Erhöhen";
 		DecreaseSpeed = "Geschwindigkeit Verringern";
 		SelectAllShips = "Alle Schiffe auswählen";
 		SelectAllParts = "Alle Teile auswählen";
@@ -154,10 +154,10 @@ Inputs
 		ZoomOut = "Raus Zoomen";
 		RotateRight = "Rechts-rum Rotieren";
 		RotateLeft = "Links-rum Rotieren";
-		ResetRotation = "Roatation Zurücksetzen";
-		FocusCursorMode = "Auf Maus Fokusieren";
-		FocusSelected = "Auf Ausgewählte Schiffe/Teile Fokusieren";
-		RotationFocusSelected = "Fokusieren & Rotation Verriegeln";
+		ResetRotation = "Rotation Zurücksetzen";
+		FocusCursorMode = "Auf Maus Fokussieren";
+		FocusSelected = "Auf Ausgewählte Schiffe/Teile Fokussieren";
+		RotationFocusSelected = "Fokussieren & Rotation Verriegeln";
 		ToggleInteriors = "Schiff Innenraum An/Aus Schalten";
 		ViewMinimap = "Minimap Anzeigen";
 	}
@@ -166,18 +166,18 @@ Inputs
 	{
 		Name = "Schiff Designer";
 		BuildOpen = "Bau Fenster Öffnen";
-		BuildClose = "Bau Fenster Schliesen";
+		BuildClose = "Bau Fenster Schließen";
 		ToggleBlueprints = "Baupläne An/Aus Schalten";
-		PaintOpenClose = "Lakierungs Fenster Öffne/Schliesen";
+		PaintOpenClose = "Lackierungsfenster Öffne/Schließen";
 		Construct = "Mach es so";
-		EraseTool = "Entfernungs Werkzeug";
+		EraseTool = "Radier Werkzeug";
 		GrabTool = "Nehmen Werkzeug";
-		SelectionTool = "Auswahl Werkzueg";
+		SelectionTool = "Auswahl Werkzeug";
 		SelectAll = "Alle Teile/Decals Auswählen";
 		Delete = "Teile/Decals Löschen";
 		DeleteDoors = "Nur Türen Löschen";
 		NoAutoDoors = "Türen Nicht Automatisch Hinzufügen";
-		CopySelected = "Augewählte Teile/Decals Kopieren";
+		CopySelected = "Ausgewählte Teile/Decals Kopieren";
 		CutSelected = "Ausgewählte Teile/Decals Ausschneiden";
 		Paste = "Teile/Decals Einfügen";
 		EraseCursorMode = "Lösch Modus";
@@ -198,16 +198,16 @@ Inputs
 
 	Repair
 	{
-		Name = "Reperation";
-		OpenClose = "Reperations Fenster Öffnen/Schliesen";
+		Name = "Reparation";
+		OpenClose = "Reparation Fenster öffnen/Schließen";
 		RepairAll = "Alles Reparieren";
-		SuppressRepair = "Nicht Reparieren (Stattdesen Bauen)";
+		SuppressRepair = "Nicht Reparieren (Stattdessen Bauen)";
 	}
 
 	Crew
 	{
-		Name = "Manschaft";
-		OpenClose = "Manschafts Fenster Öffnen/Schliesen.";
+		Name = "Mannschaft";
+		OpenClose = "Mannschaft Fenster Öffnen/Schließen.";
 		FiveAtATime = "Heure(an)/Entlasse 5 Gleichzeitig.";
 	}
 
@@ -215,7 +215,7 @@ Inputs
 	{
 		Name = "Kreativ Modus";
 		DeleteShip = "Ausgewählte Schiffe Löschen";
-		RandomizeAsteroid = "Asteroid Randominisieren";
+		RandomizeAsteroid = "Asteroid Randomisieren";
 		PlayAsAllPlayers = "Spiele Als: Alle Spieler";
 		PlayAsFmt = "Spiele als: Spieler {0}";
 		ShipLibrary = "Schiff Datenbank";
@@ -306,7 +306,7 @@ Inputs
 		TildeBacktick = "Tilde";
 		Home = "Home";
 		Insert = "Insert";
-		LeftBracket = "Left Bracket";
+		LeftBracket = "Linke Klammer";
 		Control = "Strg";
 		LeftArrow = "Pfeil nach Links";
 		Alt = "Alt";
@@ -331,8 +331,8 @@ Inputs
 		PageDown = "Page Down";
 		PageUp = "Page Up";
 		Pause = "Pause";
-		PeriodGreater = "Periode";
-		RightBracket = "Right Bracket";
+		PeriodGreater = "Punkt";
+		RightBracket = "Rechte Klammer";
 		Enter = "Enter";
 		RightArrow = "Pfeil nach Rechts";
 		ScrollLock = "Scroll Lock";
